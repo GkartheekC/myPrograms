@@ -7,10 +7,6 @@ x = -121
 #Setting up variable to determine if number is a palindrome
 palindrome = True
 
-#Excluding negative number
-if x < 0:
-    palindrome = False
-
 #Setting up for loop to check if number is a palindrome
 for i in range(0, int(((len(str(x)))/2)+1)):
     if str(x)[i] != str(x)[len(str(x))-1-i]:
